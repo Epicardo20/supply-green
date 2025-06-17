@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño embalaje</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Efecto de parallax para la imagen de fondo */
+        .parallax {
+            background-attachment: fixed; /* Fija la imagen de fondo */
+            background-position: center; /* Centra la imagen */
+            background-repeat: no-repeat; /* Evita que se repita */
+            background-size: cover; /* Cubre todo el espacio disponible */
+        }
+
+        /* Oscurecimiento de la imagen de fondo */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* Capa oscura */
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+   
+    <!-- Banner -->
+    <img src="assets/img/diseño 2.png" alt="Banner container drii" class="w-full">
+
+    <!-- Sección Superior -->
+    <div class="bg-teal-700 text-white px-6 py-12">
+        <div class="max-w-5xl mx-auto text-left">
+            <p class="text-4xl font-bold">Diseño de embalaje</p>
+        </div>
+    </div>
+
+    <!-- Descripción del Producto -->
+    <div class="max-w-5xl mx-auto px-6 py-12 text-gray-700">
+        <p class="text-3xl leading-relaxed text-justify">
+            El diseño de embalaje es el proceso de creación y desarrollo de envases, cajas y
+            otros materiales de protección utilizados para contener, transportar y presentar
+            productos. Su objetivo principal es garantizar la seguridad del producto durante el
+            almacenamiento y la distribución, además de optimizar costos y mejorar la experiencia
+            del usuario.
+        </p>
+        <div class="flex justify-center mt-8">
+            <img src="assets/img/dhl a.png" alt="Esquema 1" class="w-full md:w-4/5 lg:w-3/4">
+        </div>
+    </div>
+
+    <!-- Sección Sabías Qué con efecto de parallax -->
+    <div class="relative mt-40">
+        <div class="max-w-8xl mx-auto px-6 py-16 text-gray-300 parallax" 
+             style="background-image: url('assets/img/Recurso 225.png');">
+            
+            <!-- Capa de oscurecimiento -->
+            <div class="overlay"></div>
+            
+            <!-- Contenido del texto -->
+            <div class="relative text-center">
+                <h2 class="text-teal-400 text-4xl font-bold">APLICACIÓN</h2>
+                <h2 class="text-teal-400 text-3xl font-bold mt-4">Beneficios</h2>
+
+                <p class="text-3xl leading-relaxed text-justify mt-6">
+                    <strong>Protección del Producto:</strong><br>
+                    Evita daños por golpes, humedad, temperatura o manipulación
+                    indebida.
+                </p>
+
+                <p class="text-3xl leading-relaxed text-justify mt-6">
+                    <strong>Optimización de Materiales:</strong><br>
+                    Uso eficiente de cartón, plástico, papel, metal u
+                    otros materiales para reducir costos y desperdicio.
+                </p>
+
+                <p class="text-3xl leading-relaxed text-justify mt-6">
+                    <strong>Facilidad de Transporte y Almacenamiento:</strong><br>
+                    Diseño que permite un apilado
+                    seguro y eficiente en pallets o estanterías.
+                </p>
+
+                <p class="text-3xl leading-relaxed text-justify mt-6">
+                    <strong>Aspecto Estético y Branding:</strong><br>
+                    Elementos gráficos y estructurales que refuerzan la
+                    identidad de marca y atraen al consumidor.
+                </p>
+
+                <p class="text-3xl leading-relaxed text-justify mt-6">
+                    <strong>Sostenibilidad:</strong><br>
+                    Incorporación de materiales reciclables, biodegradables o reutilizables
+                    para reducir el impacto ambiental.
+                </p>
+
+                <p class="text-3xl leading-relaxed text-justify mt-6">
+                    <strong>Funcionalidad y Ergonomía:</strong><br>
+                    Diseños fáciles de abrir, cerrar y manipular, optimizando
+                    la experiencia del usuario final.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Aplicaciones -->
+    <div class="max-w-5xl mx-auto px-6 py-12 text-gray-700">
+        <h2 class="text-teal-700 text-4xl font-bold text-center mb-6">PRESENTACIONES</h2>
+        <p class="text-3xl leading-relaxed text-justify">
+            Un buen diseño no solo protege el producto, sino que también puede reducir costos
+            logísticos, mejorar la percepción de la marca y contribuir a la sostenibilidad, es por
+            eso que nosotros adaptamos el diseño con cada uno de los productos que proporcionamos
+            al envio y producto que se quiera enviar.
+        </p>
+        <div class="flex justify-center mt-8">
+            <img src="assets/img/todos los elementos limpias.png" alt="Infografía" class="w-full md:w-4/5 lg:w-3/4">
+        </div>
+    </div>
+
+    <!-- Documentación -->
+    <div class="bg-teal-700 py-12 px-6 text-center text-white">
+        <h2 class="text-4xl font-bold mb-6">DOCUMENTACIÓN</h2>
+    </div>
+</body>
+</html>
